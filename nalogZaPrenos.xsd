@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="NalogZaPrenos">
+        <xs:complexType>
+            <xs:attribute name="Primalac" type="xs:string"/>
+            <xs:attribute name="Posiljalac" type="xs:string"/>
+            <xs:attribute name="Iznos" type="xs:double"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
